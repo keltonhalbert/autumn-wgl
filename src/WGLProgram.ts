@@ -1,7 +1,7 @@
 
 import { WGLBuffer } from "./WGLBuffer";
 import { WGLTexture } from "./WGLTexture";
-import { WebGLAnyRenderingContext } from "./utils";
+import { isWebGL2Ctx, WebGLAnyRenderingContext } from "./utils";
 
 /**
  * @module wgl/WebGLProgram
